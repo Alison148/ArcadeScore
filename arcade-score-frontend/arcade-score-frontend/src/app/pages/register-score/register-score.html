@@ -1,0 +1,18 @@
+<h2>Registrar Pontuação</h2>
+<form (ngSubmit)="onSubmit()" #scoreForm="ngForm" style="max-width: 400px; margin: 2rem 0;">
+  <div style="margin-bottom: 1rem;">
+    <label for="player">Jogador:</label>
+    <input id="player" name="player" [(ngModel)]="player" required class="form-control" />
+  </div>
+  <div style="margin-bottom: 1rem;">
+    <label for="score">Pontuação:</label>
+    <input id="score" name="score" type="number" [(ngModel)]="score" required min="0" class="form-control" />
+  </div>
+  <div style="margin-bottom: 1rem;">
+    <label for="date">Data da Partida:</label>
+    <input id="date" name="date" type="date" [(ngModel)]="date" required class="form-control" />
+  </div>
+  <button type="submit" [disabled]="!scoreForm.form.valid">Salvar</button>
+</form>
+<div *ngIf="successMessage" style="color: green;">{{ successMessage }}</div>
+<div *ngIf="errorMessage" style="color: red;">{{ errorMessage }}</div>

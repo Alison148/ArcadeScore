@@ -1,0 +1,14 @@
+<h2>Estatísticas do Jogador</h2>
+<div *ngIf="stats; else loadingOrError">
+  <p><strong>Jogador:</strong> {{ stats.jogador }}</p>
+  <p><strong>Partidas jogadas:</strong> {{ stats.partidas }}</p>
+  <p><strong>Média de Pontuação:</strong> {{ stats.media | number:'1.0-2' }}</p>
+  <p><strong>Maior Pontuação:</strong> {{ stats.maior }}</p>
+  <p><strong>Menor Pontuação:</strong> {{ stats.menor }}</p>
+  <p><strong>Quantidade de vezes que bateu o próprio recorde:</strong> {{ stats.recordes }}</p>
+  <p><strong>Tempo que joga:</strong> {{ stats.tempoJogo }}</p>
+</div>
+<ng-template #loadingOrError>
+  <div *ngIf="errorMessage" style="color: red;">{{ errorMessage }}</div>
+  <div *ngIf="!errorMessage">Carregando...</div>
+</ng-template>

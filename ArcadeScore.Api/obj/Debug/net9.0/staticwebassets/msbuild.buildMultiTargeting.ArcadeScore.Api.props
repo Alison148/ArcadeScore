@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ArcadeScore.Api.props" />
+</Project>

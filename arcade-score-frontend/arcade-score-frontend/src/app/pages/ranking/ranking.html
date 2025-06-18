@@ -1,0 +1,22 @@
+<h2>Ranking - Top 10 Pontuações</h2>
+<table border="1" cellpadding="8" style="margin: 1rem 0; width: 100%; max-width: 600px;">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Jogador</th>
+      <th>Pontuação</th>
+      <th>Data</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let score of scores; let i = index">
+      <td>{{ i + 1 }}</td>
+      <td>
+        <a [routerLink]="['/player', score.player]" style="cursor:pointer; color:blue; text-decoration:underline;">{{ score.player }}</a>
+      </td>
+      <td>{{ score.score }}</td>
+      <td>{{ score.date | date:'shortDate' }}</td>
+    </tr>
+  </tbody>
+</table>
+<div *ngIf="errorMessage" style="color: red;">{{ errorMessage }}</div>

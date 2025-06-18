@@ -1,0 +1,8 @@
+C:\Users\amiranda\ArcadeScore\ArcadeScore.Api\obj\Debug\net6.0\ArcadeScore.Api.csproj.AssemblyReference.cache
+C:\Users\amiranda\ArcadeScore\ArcadeScore.Api\obj\Debug\net6.0\ArcadeScore.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amiranda\ArcadeScore\ArcadeScore.Api\obj\Debug\net6.0\ArcadeScore.Api.AssemblyInfoInputs.cache
+C:\Users\amiranda\ArcadeScore\ArcadeScore.Api\obj\Debug\net6.0\ArcadeScore.Api.AssemblyInfo.cs
+C:\Users\amiranda\ArcadeScore\ArcadeScore.Api\obj\Debug\net6.0\ArcadeScore.Api.csproj.CoreCompileInputs.cache
+C:\Users\amiranda\ArcadeScore\ArcadeScore.Api\obj\Debug\net6.0\ArcadeScore.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\amiranda\ArcadeScore\ArcadeScore.Api\obj\Debug\net6.0\ArcadeScore.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\amiranda\ArcadeScore\ArcadeScore.Api\obj\Debug\net6.0\ArcadeScore.Api.sourcelink.json
